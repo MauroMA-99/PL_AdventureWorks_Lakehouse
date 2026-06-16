@@ -36,6 +36,9 @@ La solución incorpora automatización mediante Synapse Pipelines, almacenamient
 - 🚀 **Lakehouse Architecture** - Separación entre almacenamiento, procesamiento y consumo
 - 🔍 **Trazabilidad de Datos** - Flujo controlado desde la capa raw hasta la capa analítica
 
+
+### 📦 Capas del Pipeline
+
 <table>
 <tr>
 <td width="33%" valign="top">
