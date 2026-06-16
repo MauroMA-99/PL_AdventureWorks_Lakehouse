@@ -10,7 +10,7 @@ La solución incorpora automatización mediante Synapse Pipelines, almacenamient
 
 ## 🏛️ Arquitectura
 
-###➡️ Flujo de Datos
+### ➡️ Flujo de Datos
 
 ```
 📄 AdventureWorks Source Files
