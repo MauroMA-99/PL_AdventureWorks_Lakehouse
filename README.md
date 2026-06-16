@@ -128,29 +128,9 @@ PL_AdventureWorks_Lakehouse
 ## 📁 Estructura del Proyecto
 
 ```
-MovieRatings-etl/
+PL_AdventureWorks_Lakehouse/
 │
-├── 📂 .github/
-│   └── 📂 workflows/
-│       └── 📄 databricks-deploy.yml    # Pipeline CI/CD
-│
-├── 📂 dashboard/
-│   ├── 📷 Dashboard_powerBi.png        # Imagen dashboard
-│   └── 📄 Dashboard_AnalisisDePeliculas.pbix     # Archivo Power BI
-│
-├── 📂 reversion/
-│   └── 🐍 Reversion.py     # REVOKES
-│
-├── 📂 .github/workflows/
-│    └── 📄 deploy-notebook.yml       # Archivo yaml
-│
-├── 📂 seguridad/
-│   └── 🐍 Permisos.py                # Grants
-│
-├── 📂 scripts/
-│   └── 📄 CreacionSQL.py             # CReacion del catalog, schemas, etc.
-│
-├── 📂 proceso/
+├── 📂 Notebooks/
 │   ├── 🐍 Ingest_movies.py            # Bronze Layer
 │   ├── 🐍 Ingest_rating.py            # Bronze Layer
 │   ├── 🐍 Transform.py                # Silver Layer
