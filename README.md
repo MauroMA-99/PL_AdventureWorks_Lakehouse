@@ -25,7 +25,7 @@ La solución incorpora automatización mediante Synapse Pipelines, almacenamient
 ```
 
 
-## ✨ Características Principales
+### ✨ Características Principales
 
 - 🏗️ **Arquitectura Medallion** - Implementación de capas Bronze → Silver → Gold
 - ⚡ **Procesamiento Distribuido** - Transformaciones desarrolladas con PySpark sobre Synapse Spark Pools
@@ -37,7 +37,7 @@ La solución incorpora automatización mediante Synapse Pipelines, almacenamient
 - 🔍 **Trazabilidad de Datos** - Flujo controlado desde la capa raw hasta la capa analítica
 
 
-### 📦 Capas del Pipeline
+## 📦 Capas del Pipeline
 
 <table>
 <tr>
