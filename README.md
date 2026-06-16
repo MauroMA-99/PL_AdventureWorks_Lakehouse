@@ -7,6 +7,7 @@ El flujo contempla la ingesta de datos hacia la capa Bronze, la transformación 
 
 La solución incorpora automatización mediante Synapse Pipelines, almacenamiento de datos en formato Parquet y modelado analítico basado en dimensiones y hechos, siguiendo buenas prácticas utilizadas en entornos empresariales modernos de Data Engineering.
 
+---
 
 ## 🏛️ Arquitectura
 
@@ -36,6 +37,7 @@ La solución incorpora automatización mediante Synapse Pipelines, almacenamient
 - 🚀 **Lakehouse Architecture** - Separación entre almacenamiento, procesamiento y consumo
 - 🔍 **Trazabilidad de Datos** - Flujo controlado desde la capa raw hasta la capa analítica
 
+---
 
 ## 📦 Capas del Pipeline
 
@@ -108,6 +110,8 @@ La solución incorpora automatización mediante Synapse Pipelines, almacenamient
 </tr>
 </table>
 
+---
+
 ## 🔄 Orquestación
 ```
 PL_AdventureWorks_Lakehouse
@@ -119,7 +123,49 @@ PL_AdventureWorks_Lakehouse
 └── 03_Silver_To_Gold
 ```
 
+---
 
+## 📁 Estructura del Proyecto
+
+```
+MovieRatings-etl/
+│
+├── 📂 .github/
+│   └── 📂 workflows/
+│       └── 📄 databricks-deploy.yml    # Pipeline CI/CD
+│
+├── 📂 dashboard/
+│   ├── 📷 Dashboard_powerBi.png        # Imagen dashboard
+│   └── 📄 Dashboard_AnalisisDePeliculas.pbix     # Archivo Power BI
+│
+├── 📂 reversion/
+│   └── 🐍 Reversion.py     # REVOKES
+│
+├── 📂 .github/workflows/
+│    └── 📄 deploy-notebook.yml       # Archivo yaml
+│
+├── 📂 seguridad/
+│   └── 🐍 Permisos.py                # Grants
+│
+├── 📂 scripts/
+│   └── 📄 CreacionSQL.py             # CReacion del catalog, schemas, etc.
+│
+├── 📂 proceso/
+│   ├── 🐍 Ingest_movies.py            # Bronze Layer
+│   ├── 🐍 Ingest_rating.py            # Bronze Layer
+│   ├── 🐍 Transform.py                # Silver Layer
+│   ├── 🐍 Load.py                     # Gold Layer
+│   └── 🐍 DeltaSharing.py             # Exportacion de la tabla movies_insight
+│
+├── 📂 certificaiones/
+│   ├── 📄 DatabricksFundamentals.jpeg                # Acreditacion de Fundamentos de Databricks
+│   ├── 📄 GenerativeAIFundamentals.jpg               # Acreditacion de Fundamentos de AI Generativa
+│   └── 📄 Platform Administrator.png                 # Acreditacion de Administrador de plataforma
+│
+└── 📄 README.md
+```
+
+---
 
 
 
