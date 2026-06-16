@@ -7,6 +7,24 @@ El flujo contempla la ingesta de datos hacia la capa Bronze, la transformación 
 
 La solución incorpora automatización mediante Synapse Pipelines, almacenamiento de datos en formato Parquet y modelado analítico basado en dimensiones y hechos, siguiendo buenas prácticas utilizadas en entornos empresariales modernos de Data Engineering.
 
+
+## 🏛️ Arquitectura
+
+###➡️ Flujo de Datos
+
+```
+📄 AdventureWorks Source Files
+    ↓
+🥉 Bronze Layer (Raw Ingestion)
+    ↓
+🥈 Silver Layer (Data Cleansing & Dimensional Modeling)
+    ↓
+🥇 Gold Layer (Business Aggregations & KPIs)
+    ↓
+📊 Power BI / Analytics Consumption
+```
+
+
 ### ✨ Características Principales
 
 - 🏗️ **Arquitectura Medallion** - Implementación de capas Bronze → Silver → Gold
@@ -21,6 +39,7 @@ La solución incorpora automatización mediante Synapse Pipelines, almacenamient
 <table>
 <tr>
 <td width="33%" valign="top">
+
 
 #### 🥉 Bronze Layer
 **Propósito**: Ingesta de datos crudos
@@ -86,4 +105,11 @@ La solución incorpora automatización mediante Synapse Pipelines, almacenamient
 </tr>
 </table>
 
-
+🔄 Orquestación
+PL_AdventureWorks_Lakehouse
+│
+├── 01_Load_Bronze
+│
+├── 02_Bronze_To_Silver
+│
+└── 03_Silver_To_Gold
