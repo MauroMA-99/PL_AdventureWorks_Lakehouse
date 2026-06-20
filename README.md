@@ -1,4 +1,4 @@
-# PL_AdventureWorks_Lakehouse
+# Azure Synapse Lakehouse | AdventureWorks Sales Analytics
 
 ## 🎯 Descripción
 📄Proyecto de Data Engineering desarrollado en Azure Synapse Analytics que implementa una arquitectura Lakehouse basada en el patrón Medallion (Bronze, Silver y Gold). La solución procesa información de clientes, productos y ventas del dataset AdventureWorks utilizando PySpark, Azure Data Lake Storage Gen2 y Synapse Pipelines para construir datasets analíticos listos para consumo por herramientas de Business Intelligence como Power BI.
