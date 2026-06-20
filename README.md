@@ -21,8 +21,7 @@ La solución incorpora automatización mediante Synapse Pipelines, almacenamient
 🥈 Silver Layer (Data Cleansing & Dimensional Modeling)
     ↓
 🥇 Gold Layer (Business Aggregations & KPIs)
-    ↓
-📊 Power BI / Analytics Consumption
+
 ```
 
 
@@ -131,21 +130,50 @@ PL_AdventureWorks_Lakehouse
 PL_AdventureWorks_Lakehouse/
 │
 ├── 📂 Notebooks/
-│   ├── 🐍 Ingest_movies.py            # Bronze Layer
-│   ├── 🐍 Ingest_rating.py            # Bronze Layer
-│   ├── 🐍 Transform.py                # Silver Layer
-│   ├── 🐍 Load.py                     # Gold Layer
-│   └── 🐍 DeltaSharing.py             # Exportacion de la tabla movies_insight
+│   ├── 01_Raw_To_Bronze.ipynb  
+│   ├── 02_Bronze_To_Silver.ipynb
+│   └── 03_Silver_To_Gold.ipynb
 │
-├── 📂 certificaiones/
-│   ├── 📄 DatabricksFundamentals.jpeg                # Acreditacion de Fundamentos de Databricks
-│   ├── 📄 GenerativeAIFundamentals.jpg               # Acreditacion de Fundamentos de AI Generativa
-│   └── 📄 Platform Administrator.png                 # Acreditacion de Administrador de plataforma
+├── 📂 Pipeline/
+│   └── PL_AdventureWorks_Lakehouse_support_live.zip
 │
 └── 📄 README.md
 ```
 
 ---
+
+## 🛠️ Tecnologías
+
+<div align="center">
+
+| Tecnología | Propósito |
+|:----------:|:----------|
+| ![Databricks](https://img.shields.io/badge/Azure_Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white) | Motor de procesamiento distribuido Spark |
+| ![Delta Lake](https://img.shields.io/badge/Delta_Lake-00ADD8?style=flat-square&logo=delta&logoColor=white) | Storage layer con ACID transactions |
+| ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apache-spark&logoColor=white) | Framework de transformación de datos |
+| ![ADLS](https://img.shields.io/badge/ADLS_Gen2-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white) | Data Lake para almacenamiento persistente |
+| ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) | Automatización CI/CD |
+| ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=power-bi&logoColor=black) | Business Intelligence y visualización |
+
+</div>
+
+---
+## ⚙️ Requisitos Previos
+
+- ☁️ Cuenta de Azure con acceso a Databricks
+- 💻 Workspace de Databricks configurado
+- 🖥️ Cluster activo (nombre: `CLUSTER COFFEE SHOP`)
+- 🐙 Cuenta de GitHub con permisos de administrador
+- 📦 Azure Data Lake Storage Gen2 configurado
+- 📊 Power BI Desktop (opcional para visualización)
+
+---
+
+## 🚀 Instalación y Configuración
+
+### 1️⃣. Creación del grupo de recursos
+
+![I1](images/creacion_rg.png)
 
 
 
