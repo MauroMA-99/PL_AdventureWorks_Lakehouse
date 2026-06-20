@@ -149,6 +149,21 @@ PL_AdventureWorks_Lakehouse/
 
 ---
 
+## 🛠️ Tecnologías Utilizadas
+
+```
+Azure Synapse Analytics
+Azure Data Lake Storage Gen2
+Apache Spark (PySpark)
+Synapse Pipelines
+Parquet
+SQL
+GitHub
+Power BI
+```
+
+---
+
 ## 🚀 Instalación y Configuración
 
 ### 1️⃣. Creación del grupo de recursos
