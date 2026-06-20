@@ -142,7 +142,7 @@ PL_AdventureWorks_Lakehouse/
 ## ⚙️ Requisitos Previos
 
 - ☁️ Cuenta de Azure con acceso a Synapse
-- 🖥️ Cluster activo pyspark pool
+- 🖥️ Cluster activo Apache Spark pool
 - 🐙 Cuenta de GitHub con permisos de administrador
 - 📦 Azure Data Lake Storage Gen2 configurado
 - 📊 Power BI Desktop (opcional para visualización)
