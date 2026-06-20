@@ -106,18 +106,14 @@ La solución incorpora automatización mediante Synapse Pipelines, almacenamient
 </td>
 </tr>
 </table>
+
 ---
 
 ## 🔄 Orquestación
-```
-PL_AdventureWorks_Lakehouse
-│
-├── 01_Load_Bronze
-│
-├── 02_Bronze_To_Silver
-│
-└── 03_Silver_To_Gold
-```
+
+
+![I1](Images/Image01.png)
+
 
 ---
 
