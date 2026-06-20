@@ -21,9 +21,7 @@ La solución incorpora automatización mediante Synapse Pipelines, almacenamient
 🥈 Silver Layer (Data Cleansing & Dimensional Modeling)
     ↓
 🥇 Gold Layer (Business Aggregations & KPIs)
-
 ```
-
 
 ### ✨ Características Principales
 
@@ -108,7 +106,6 @@ La solución incorpora automatización mediante Synapse Pipelines, almacenamient
 </td>
 </tr>
 </table>
-
 ---
 
 ## 🔄 Orquestación
@@ -142,27 +139,10 @@ PL_AdventureWorks_Lakehouse/
 
 ---
 
-## 🛠️ Tecnologías
-
-<div align="center">
-
-| Tecnología | Propósito |
-|:----------:|:----------|
-| ![Databricks](https://img.shields.io/badge/Azure_Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white) | Motor de procesamiento distribuido Spark |
-| ![Delta Lake](https://img.shields.io/badge/Delta_Lake-00ADD8?style=flat-square&logo=delta&logoColor=white) | Storage layer con ACID transactions |
-| ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apache-spark&logoColor=white) | Framework de transformación de datos |
-| ![ADLS](https://img.shields.io/badge/ADLS_Gen2-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white) | Data Lake para almacenamiento persistente |
-| ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) | Automatización CI/CD |
-| ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=power-bi&logoColor=black) | Business Intelligence y visualización |
-
-</div>
-
----
 ## ⚙️ Requisitos Previos
 
-- ☁️ Cuenta de Azure con acceso a Databricks
-- 💻 Workspace de Databricks configurado
-- 🖥️ Cluster activo (nombre: `CLUSTER COFFEE SHOP`)
+- ☁️ Cuenta de Azure con acceso a Synapse
+- 🖥️ Cluster activo pyspark pool
 - 🐙 Cuenta de GitHub con permisos de administrador
 - 📦 Azure Data Lake Storage Gen2 configurado
 - 📊 Power BI Desktop (opcional para visualización)
