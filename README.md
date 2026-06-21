@@ -233,7 +233,7 @@ GitHub
 
 ![I19](Images/Image23.png)
 
-![I96](Images/Image27.png)
+![I96](Images/Imagen27.png)
 
 
 ### 1️⃣2️⃣. Configuramos el bloque Load con "03_Silver_To_Gold.ipynb"
@@ -247,15 +247,15 @@ GitHub
 
 ![I22](Images/Image25.png)
 
-![I23](Images/Image28.png)
+![I23](Images/Imagen28.png)
 
 
 ### 1️⃣3️⃣. Consulto la data de mi db Bronze
 
-![I24](Images/Image29.png)
+![I24](Images/Imagen29.png)
 
-![I25](Images/Image30.png)
+![I25](Images/Imagen30.png)
 
-![I26](Images/Image31.png)
+![I26](Images/Imagen31.png)
 
-![I27](Images/Image32.png)
+![I27](Images/Imagen32.png)
