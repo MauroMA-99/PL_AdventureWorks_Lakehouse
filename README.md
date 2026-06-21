@@ -162,9 +162,101 @@ Power BI
 
 ## 🚀 Instalación y Configuración
 
-### 1️⃣. Creación del grupo de recursos
+### 1️⃣. Creación del Synapse Workspace
+![I2](Images/Image02.png)
 
-![I1](images/creacion_rg.png)
+![I3](Images/Image04.png)
 
 
+### 2️⃣. En Synapse configuramos el data que usaremos: adlsdatamau
 
+![I4](Images/Image05.png)
+
+
+### 3️⃣. Creo el database en Azure SQL y habilito "AdventureWorks"
+
+![I5](Images/Image06.png)
+
+![I6](Images/Image07.png)
+
+
+### 4️⃣. En Synapse creamos los linked Service para Azure SQL y Azure Data Lake Storage Gen 2
+
+![I7](Images/Image08.png)
+
+![I8](Images/Image09.png)
+
+
+### 5️⃣. En Integrate Pipeline configuramos los bloques de copy data
+
+![I9](Images/Image10.png)
+
+![I10](Images/Image11.png)
+
+
+### 6️⃣. Con "copy data" copiamos la tabla da Azure SQL a Azure Data Lake Storage Gen 2 (container Landing)
+
+![I11](Images/Image12.png)
+
+![I12](Images/Image13.png)
+
+![I99](Images/Image20.png)
+
+### 7️⃣. Configuramos Apache Spark Pool
+
+![I13](Images/Image14.png)
+
+
+### 8️⃣. 01_Raw_To_Bronze.ipynb: Cargamos la data hacia el db Bronze y a la carpeta Bronze
+
+![I14](Images/Image15.png)
+
+![I15](Images/Image16.png)
+
+![I98](Images/Image21.png)
+
+![I97](Images/Image26.png)
+
+
+### 9️⃣. La metadata de Bronze estara en "adlsdatamau -> synapse -> workspace"
+
+![I16](Images/Image19.png)
+
+![I17](Images/Image18.png)
+
+
+### 1️⃣0️⃣. Configuramos el bloque Transform con "02_Bronze_To_Silver.ipynb"
+
+![I18](Images/Image17.png)
+
+
+### 1️⃣1️⃣. "02_Bronze_To_Silver.ipynb" se usa para la transformación y carga a la carpeta Silver y db Silver
+
+![I19](Images/Image23.png)
+
+![I96](Images/Image27.png)
+
+
+### 1️⃣2️⃣. Configuramos el bloque Load con "03_Silver_To_Gold.ipynb"
+
+![I20](Images/Image22.png)
+
+
+### 1️⃣3️⃣. "03_Silver_To_Gold.ipynb" se usa para la carga a la carpeta Gold y db Gold
+
+![I21](Images/Image24.png)
+
+![I22](Images/Image25.png)
+
+![I23](Images/Image28.png)
+
+
+### 1️⃣3️⃣. Consulto la data de mi db Bronze
+
+![I24](Images/Image29.png)
+
+![I25](Images/Image30.png)
+
+![I26](Images/Image31.png)
+
+![I27](Images/Image32.png)
