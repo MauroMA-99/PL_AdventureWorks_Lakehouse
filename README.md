@@ -193,7 +193,7 @@ GitHub
 ![I10](Images/Image11.png)
 
 
-### 6️⃣. Con "copy data" copiamos la tabla da Azure SQL a Azure Data Lake Storage Gen 2 (container Landing)
+### 6️⃣. Con "copy data" copiamos la tabla de Azure SQL a Azure Data Lake Storage Gen 2 (container Landing)
 
 ![I11](Images/Image12.png)
 
