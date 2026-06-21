@@ -250,7 +250,7 @@ GitHub
 ![I23](Images/Imagen28.png)
 
 
-### 1️⃣3️⃣. Consulto la data de mi db Bronze
+### 1️⃣3️⃣. Consulto la data de mi db Gold
 
 ![I24](Images/Imagen29.png)
 
