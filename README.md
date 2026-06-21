@@ -155,7 +155,6 @@ Synapse Pipelines
 Parquet
 SQL
 GitHub
-Power BI
 ```
 
 ---
